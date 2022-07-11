@@ -1,14 +1,12 @@
+import Header from '../../comps/Header';
+
 const Animate = () => {
+  const description = "Migrate from concept to product through the animate step. On this page you will learn the principles of 2D & 3D animation."
+  const name = "Animate"
+  const url = "animate"
   return (
     <div>
-    <Head>
-      <title>DT-Equip | Animate</title>
-      <meta name="description" content="Migrate from concept to product through the animate step. On this page you will learn the principles of 2D & 3D animation." />
-      <meta property="og:title" content="DT-Equip | Animate" />
-      <meta property="og:description" content="Migrate from concept to product through the animate step. On this page you will learn the principles of 2D & 3D animation." />
-      <meta property="og:url" content="https://dt-equip.vercel.app/" />
-      <meta property="og:type" content="website" />
-    </Head>
+      <Header name={name} description={description} url={url} />
       Animate
     </div>
   );

@@ -1,17 +1,13 @@
 import React from 'react'
-import Head from 'next/head'
+import Header from '../../comps/Header'
 
 const Design = () => {
+  const description = "Migrate from concept to product through the design step. On this page you will learn the principles of graphics design starting with a pencil and paper."
+  const name = "Design"
+  const url = "design"
   return (
     <div>
-    <Head>
-      <title>DT-Equip | Design</title>
-      <meta name="description" content="Migrate from concept to product through the design step. On this page you will learn the principles of graphics design starting with a pencil and paper." />
-      <meta property="og:title" content="DT-Equip | Design" />
-      <meta property="og:description" content="Migrate from concept to product through the design step. On this page you will learn the principles of graphics design starting with a pencil and paper." />
-      <meta property="og:url" content="https://dt-equip.vercel.app/" />
-      <meta property="og:type" content="website" />
-    </Head>
+      <Header name={name} description={description} url={url} />
       Design
     </div>
   )
