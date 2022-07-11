@@ -38,6 +38,15 @@
   font-weight: 900
 }
 
+:root {
+  --bg-color: #f2f2f2;
+  --font-color: #333;
+  --border-bottom-color: #ddd;
+  --border-top-color: #eaeaea;
+  --footer-color: #777;
+  --main-10: royalblue
+}
+
 html,
 body {
   padding: 0;
@@ -46,14 +55,46 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: .95em;
   font-weight: 400;
+  background-color: var(--bg-color);
 }
 
 a {
-  color: inherit;
+  color: var(--font-color);
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+  vertical-align: middle;
 }
 
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--border-bottom-color);
+}
+
+nav a {
+  margin-left: 12px;
+}
+
+nav .logo {
+  margin-right: auto;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: var(--footer-color);
+  border-top: 1px solid var(--border-top-color);
+}
