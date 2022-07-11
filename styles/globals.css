@@ -1,42 +1,5 @@
-
-/* Google Sans */
-@font-face {
-  font-family: "Google Sans";
-  src: url("../public/fonts/ProductSans-Thin.ttf");
-  font-weight: 100
-}
-
-@font-face {
-  font-family: "Google Sans";
-  src: url("../public/fonts/ProductSans-Light.ttf");
-  font-weight: 200
-}
-
-@font-face {
-  font-family: "Google Sans";
-  src: url("../public/fonts/ProductSans-Regular.ttf");
-  font-style: normal;
-  font-weight: 400
-}
-
-
-@font-face {
-  font-family: "Google Sans";
-  src: url("../public/fonts/ProductSans-Medium.ttf");
-  font-weight: 500
-}
-
-@font-face {
-  font-family: "Google Sans";
-  src: url("../public/fonts/ProductSans-Bold.ttf");
-  font-weight: 700
-}
-
-@font-face {
-  font-family: "Google Sans";
-  src: url("../public/fonts/ProductSans-Black.ttf");
-  font-weight: 900
-}
+@import url(./Fonts.css);
+@import url(./Navbar.css);
 
 :root {
   --bg-color: #f2f2f2;
@@ -75,21 +38,6 @@ a {
   padding: 8px;
 }
 
-nav {
-  padding: 10px 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  border-bottom: 1px solid var(--border-bottom-color);
-}
-
-nav a {
-  margin-left: 12px;
-}
-
-nav .logo {
-  margin-right: auto;
-}
 
 footer {
   display: block;
@@ -125,16 +73,4 @@ footer {
   font-size: .9em;
   box-shadow: var(--box-shadow);
   border-radius: 4px; 
-}
-
-@media screen and (max-width: 600px) {
-  nav {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  nav .logo {
-    margin: unset;
-  }
 }

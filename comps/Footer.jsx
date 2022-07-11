@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      Copyright 2022 DT-Equip
+      Copyright 2022 dt-Equip
     </footer>
   );
 }

@@ -1,0 +1,29 @@
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--border-bottom-color);
+}
+
+nav a {
+  margin-left: 12px;
+}
+
+nav .logo {
+  margin: 8px 0;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .logo {
+    margin: unset;
+    margin-bottom: 8px;
+  }
+}
