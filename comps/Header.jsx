@@ -11,7 +11,7 @@ const Header = ({ name, description, url }) => {
       <meta name="keywords" content="2D, 3D, Graphics, Design, Software, Development, Animation, Web" />
       <meta name="robots" content="index, follow" />
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="language" content="English" />
+      <meta name="language" content="en-us" />
       <meta name="revisit-after" content="2 days" />
       <meta name="author" content="Olanrewaju Gabriel Ibironke" />
 

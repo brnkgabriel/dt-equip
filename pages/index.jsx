@@ -5,7 +5,7 @@ import Link from "next/link"
 import Header from '../comps/Header'
 
 export default function Home() {
-  const description = "Migrate from concept to product through the design, develop & animate steps. Learn graphics design, software development as well as 2D & 3D animation and wrap the knowledge in an application."
+  const description = "Migrate from concept to product through the design, develop & animate steps."
   const name = "Home | DT-EQUIP"
   const url = ""
   return (

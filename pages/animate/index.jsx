@@ -1,7 +1,7 @@
 import Header from '../../comps/Header';
 
 const Animate = () => {
-  const description = "Migrate from concept to product through the animate step. On this page you will learn the principles of 2D & 3D animation."
+  const description = "Migrate from concept to product through the animate step."
   const name = "Animate"
   const url = "animate"
   return (
