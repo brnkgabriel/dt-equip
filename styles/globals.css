@@ -44,7 +44,8 @@
   --border-bottom-color: #ddd;
   --border-top-color: #eaeaea;
   --footer-color: #777;
-  --main-10: royalblue
+  --main-10: royalblue;
+  --box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
 }
 
 html,
@@ -97,4 +98,31 @@ footer {
   margin-top: 60px;
   color: var(--footer-color);
   border-top: 1px solid var(--border-top-color);
+}
+
+.not-found {
+  text-align: center;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found a {
+  color: var(--main-10);
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px; 
+  background-color: var(--main-10);
+  color: white; 
+  font-weight: 500;
+  font-size: .9em;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px; 
 }
