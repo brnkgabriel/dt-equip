@@ -3,7 +3,7 @@ import Header from '../../comps/Header'
 
 const Design = () => {
   const description = "Migrate from concept to product through the design step."
-  const name = "Design | DT-EQUIP"
+  const name = "DT-EQUIP"
   const url = "design"
   return (
     <div>
