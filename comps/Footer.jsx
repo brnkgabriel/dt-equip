@@ -5,7 +5,10 @@ const Footer = () => {
       <div>
         <a href="/sitemap.xml" className="btn">Sitemap</a>
       </div>
-      Copyright 2022 DT-EQUIP
+      <div className="copyright">
+        <div className="symbol">©</div>
+        <div className="txt">2022 DT-EQUIP. All Rights Reserved.</div>
+      </div>
     </footer>
   );
 }

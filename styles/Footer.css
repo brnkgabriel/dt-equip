@@ -1,0 +1,18 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright .symbol {
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  margin-bottom: -3px;
+  font-size: 1.3em;
+}
+
+.copyright .txt {
+  font-size: 0.8em;
+}

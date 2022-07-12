@@ -1,5 +1,6 @@
 @import url(./Fonts.css);
 @import url(./Navbar.css);
+@import url(./Footer.css);
 
 :root {
   --bg-color: #f2f2f2;

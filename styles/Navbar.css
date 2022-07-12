@@ -19,11 +19,18 @@ nav .logo {
   nav {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   nav .logo {
     margin: unset;
     margin-bottom: 8px;
+  }
+
+  nav .links a {
+    margin: 0 8px;
+  }
+  nav .links a:first-child {
+    margin-left: unset;
   }
 }

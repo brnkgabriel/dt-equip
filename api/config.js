@@ -1,0 +1,1 @@
+export const api = "https://script.google.com/macros/s/AKfycbwmkbCPCRmkZtENH2GVfSpqOfoHPFNNBnzcIr6NjL09v7gz6R3H_7fS8QAifzwXWdgJ/exec?callback=?"
