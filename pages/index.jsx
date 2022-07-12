@@ -3,8 +3,28 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from "next/link"
 import Header from '../comps/Header'
+import { api } from "../api/config"
+import Util from "./api/util"
 
-export default function Home() {
+export const getStaticProps = async () => {
+
+  const res = await fetch(api)
+  const text = await res.text()
+
+  const sIdx = text.indexOf("([")
+  const eIdx = text.indexOf("])")
+
+  const str = text.substring(sIdx + 1, eIdx + 1)
+  const util = new Util()
+  let data = JSON.parse(str).map(str => util.str2Obj(str))
+
+  return {
+    props: { data }
+  }
+}
+
+export default function Home({ data }) {
+  console.log("data from home is", data)
   const description = "Migrate from concept to product through the design, develop & animate steps."
   const name = "Home | DT-EQUIP"
   const url = ""
