@@ -32,8 +32,8 @@ export default function Home({ data }) {
       <div>
         <Header name={name} description={description} url={url} />
         <h1 className={styles.title}>Design, Develop & Animate</h1>
-        <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, autem nam deserunt iste obcaecati dolor quidem placeat, quia eius reprehenderit repellat officiis ipsum sunt minus sed alias officia dolores recusandae.</p>
-        <p className={styles.text}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut dolorum quibusdam totam similique quas quidem? Atque, soluta eaque! Sapiente deleniti voluptate possimus exercitationem, suscipit expedita illo magnam iure reprehenderit deserunt!</p>
+        <p className={styles.text}>Migrate from the concept to product via the design, develop & animate phase</p>
+        <p className={styles.text}>Design :)</p>
         <div className={styles.animate}>
           <Link href="/animate"><a className="btn">Checkout the animation process</a></Link>
         </div>
