@@ -24,7 +24,6 @@ export const getStaticProps = async () => {
 }
 
 export default function Home({ data }) {
-  console.log("data from home is", data)
   const description = "Design, Develop & Animate"
   const name = "Home - DTE"
   const url = ""
