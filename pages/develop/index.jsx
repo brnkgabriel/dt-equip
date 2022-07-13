@@ -2,7 +2,7 @@ import Header from '../../comps/Header';
 
 const Develop = () => {
   const description = "Migrate from concept to product through the develop step."
-  const name = "DT-EQUIP"
+  const name = "Develop - DTE"
   const url = "develop"
   return (
     <div>

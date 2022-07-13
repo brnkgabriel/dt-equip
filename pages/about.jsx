@@ -3,8 +3,8 @@ import Header from '../comps/Header'
 import styles from '../styles/About.module.css'
 
 const About = () => {
-  const description = "Migrate from concept to product through the design, develop & animate steps."
-  const name = "About | DT-EQUIP"
+  const description = "Design, Develop & Animate"
+  const name = "About - DTE"
   const url = "about"
   return (
     <div className={styles.container}>

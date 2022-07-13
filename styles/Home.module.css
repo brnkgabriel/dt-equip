@@ -11,3 +11,10 @@
 .animate {
   text-align: center;
 }
+
+.featuredBackground {
+  background: url(https://www.blender.org/wp-content/uploads/2022/05/oksana-dobrovolska-s.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

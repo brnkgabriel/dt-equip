@@ -3,12 +3,15 @@
 @import url(./Footer.css);
 
 :root {
-  --bg-color: #f2f2f2;
-  --font-color: #333;
+  --bg-color: #F9F8FF;
+  --font-color: #282828;
   --border-bottom-color: #ddd;
   --border-top-color: #eaeaea;
   --footer-color: #777;
-  --main-10: royalblue;
+  --main-10: #4169e1;
+  --main-30: #8C8DB9;
+  --main-60: #F9F8FF;
+  --main-dark: #002A93;
   --box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
 }
 

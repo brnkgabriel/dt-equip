@@ -2,7 +2,7 @@ import Header from '../../comps/Header';
 
 const Animate = () => {
   const description = "Migrate from concept to product through the animate step."
-  const name = "DT-EQUIP"
+  const name = "Animate - DTE"
   const url = "animate"
   return (
     <div>

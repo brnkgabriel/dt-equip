@@ -25,17 +25,19 @@ export const getStaticProps = async () => {
 
 export default function Home({ data }) {
   console.log("data from home is", data)
-  const description = "Migrate from concept to product through the design, develop & animate steps."
-  const name = "DT-EQUIP"
+  const description = "Design, Develop & Animate"
+  const name = "Home - DTE"
   const url = ""
   return (
-    <div>
-      <Header name={name} description={description} url={url} />
-      <h1  className={styles.title}>Design, Develop & Animate</h1>
-      <p  className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, autem nam deserunt iste obcaecati dolor quidem placeat, quia eius reprehenderit repellat officiis ipsum sunt minus sed alias officia dolores recusandae.</p>
-      <p  className={styles.text}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut dolorum quibusdam totam similique quas quidem? Atque, soluta eaque! Sapiente deleniti voluptate possimus exercitationem, suscipit expedita illo magnam iure reprehenderit deserunt!</p>
-      <div className={styles.animate}>
-        <Link href="/animate"><a className="btn">Checkout the animation process</a></Link>
+    <div className="content">
+      <div>
+        <Header name={name} description={description} url={url} />
+        <h1 className={styles.title}>Design, Develop & Animate</h1>
+        <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, autem nam deserunt iste obcaecati dolor quidem placeat, quia eius reprehenderit repellat officiis ipsum sunt minus sed alias officia dolores recusandae.</p>
+        <p className={styles.text}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut dolorum quibusdam totam similique quas quidem? Atque, soluta eaque! Sapiente deleniti voluptate possimus exercitationem, suscipit expedita illo magnam iure reprehenderit deserunt!</p>
+        <div className={styles.animate}>
+          <Link href="/animate"><a className="btn">Checkout the animation process</a></Link>
+        </div>
       </div>
     </div>
   )
