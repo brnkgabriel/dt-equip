@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project hosted on [`vercel`](https://dt-equip.vercel.app/).
+This is a [Next.js](https://nextjs.org/) project hosted on Vercel. See [`demo`](https://dt-equip.vercel.app/).
 
 ## dt-equip
 
